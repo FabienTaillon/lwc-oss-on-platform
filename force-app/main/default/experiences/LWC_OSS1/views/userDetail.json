@@ -1,0 +1,71 @@
+{
+  "appPageId" : "2c471512-020a-45fa-87e0-fa4af8331ac8",
+  "componentName" : "community_layout:sldsFlexibleLayout",
+  "id" : "b7c8fb1d-e09c-4e6a-be09-19b23830f8fd",
+  "label" : "User Detail",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "backgroundImageConfig" : "",
+        "backgroundImageOverlay" : "rgba(0,0,0,0)",
+        "sectionConfig" : "{\"UUID\":\"e586311c-53de-4762-8fdf-7de2ff119ed1\",\"columns\":[{\"UUID\":\"610e7f2a-cf61-435c-a432-acb352ea6d0c\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"3\",\"seedComponents\":[]},{\"UUID\":\"985c68e6-b4c5-4982-a543-b39bb6bc3c38\",\"columnName\":\"Column 2\",\"columnKey\":\"e8f7e\",\"columnWidth\":\"6\",\"seedComponents\":[]},{\"UUID\":\"fb3c6500-3852-4777-a9ce-0e90669564f5\",\"columnName\":\"Column 3\",\"columnKey\":\"21ad3\",\"columnWidth\":\"3\",\"seedComponents\":[]}]}"
+      },
+      "componentName" : "community_layout:section",
+      "id" : "e586311c-53de-4762-8fdf-7de2ff119ed1",
+      "regions" : [ {
+        "id" : "610e7f2a-cf61-435c-a432-acb352ea6d0c",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : { },
+          "componentName" : "c:userDetail",
+          "id" : "f417d825-c34e-49c9-b359-171ddca893ce",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "985c68e6-b4c5-4982-a543-b39bb6bc3c38",
+        "regionLabel" : "Column 2",
+        "regionName" : "e8f7e",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "id" : "fb3c6500-3852-4777-a9ce-0e90669564f5",
+        "regionLabel" : "Column 3",
+        "regionName" : "21ad3",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "scopedBrandingSetId" : null,
+      "type" : "component"
+    } ],
+    "id" : "892389cb-0942-476d-b915-8bdd803d5a1e",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "pageTitle" : "User Detail",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "community_builder:seoAssistant",
+      "id" : "bc346518-605a-4a0a-b6eb-13144a767fe2",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "524803c6-e654-4b5c-91c0-6e8d7cb1e7b4",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-user-detail"
+}

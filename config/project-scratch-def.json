@@ -1,0 +1,19 @@
+{
+  "orgName": "Texeï",
+  "edition": "Developer",
+  "features": ["EnableSetPasswordInApi", "Communities", "Sites"],
+  "settings": {
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
+    },
+    "communitiesSettings": {
+      "enableNetworksEnabled": true
+    },
+    "experienceBundleSettings": {
+      "enableExperienceBundleMetadata": true
+    }
+  }
+}

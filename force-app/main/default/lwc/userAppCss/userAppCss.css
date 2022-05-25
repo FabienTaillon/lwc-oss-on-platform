@@ -1,0 +1,11 @@
+lightning-card {
+    display: block;
+    --slds-c-card-color-background: white;
+}
+
+@media (min-width: 500px) {
+    lightning-card {
+        min-width: 500px;
+        display: block;
+    }
+}
